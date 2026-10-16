@@ -1,0 +1,4 @@
+      1 maxMemory=23035117568 totalMemory=536870912 maxMemoryGiB=21.45 totalMemoryGiB=0.50
+      1 [openlog] fopen64(/proc/cgroups)
+      1 [openlog] fopen64(/proc/meminfo)
+      1 [openlog] open64(/home/jamey/workspace/cgroup_bug/harness/java/Probe.class)

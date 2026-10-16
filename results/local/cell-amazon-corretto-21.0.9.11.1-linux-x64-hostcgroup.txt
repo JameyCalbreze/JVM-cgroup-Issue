@@ -1,0 +1,8 @@
+[0.001s][trace][os,container] OSContainer::init: Initializing Container Support
+[0.001s][debug][os,container] Detected optional pids controller entry in /proc/cgroups
+[0.001s][debug][os,container] controller cpuset is not enabled
+
+[0.001s][debug][os,container] controller memory is not enabled
+
+[0.001s][debug][os,container] One or more required controllers disabled at kernel level.
+maxMemory=23035117568 totalMemory=536870912 maxMemoryGiB=21.45 totalMemoryGiB=0.50

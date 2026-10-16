@@ -1,0 +1,5 @@
+VM settings:
+    Max. Heap Size (Estimated): 1.40G
+    Using VM: OpenJDK 64-Bit Server VM
+
+maxMemory=1503657984 totalMemory=1075838976 maxMemoryGiB=1.40 totalMemoryGiB=1.00

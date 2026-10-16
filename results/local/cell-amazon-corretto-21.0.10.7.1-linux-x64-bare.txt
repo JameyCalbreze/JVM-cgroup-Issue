@@ -1,0 +1,79 @@
+[0.001s][trace][os,container] OSContainer::init: Initializing Container Support
+[0.001s][debug][os,container] Detected optional cpuset controller entry in /sys/fs/cgroup/cgroup.controllers
+[0.001s][debug][os,container] Detected optional pids controller entry in /sys/fs/cgroup/cgroup.controllers
+[0.001s][debug][os,container] Detected cgroups v2 unified hierarchy
+[0.001s][trace][os,container] Adjusting controller path for memory: /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/jvmtest
+[0.001s][trace][os,container] Path to /memory.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/jvmtest/memory.max
+[0.001s][trace][os,container] Memory Limit is: 2147483648
+[0.001s][trace][os,container] Memory Limit is: 2147483648
+[0.001s][trace][os,container] Path to /memory.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/memory.max
+[0.001s][trace][os,container] Memory Limit is: -1
+[0.001s][trace][os,container] Memory Limit is: Unlimited
+[0.001s][debug][os,container] container memory limit unlimited: -1, using host value 32903991296
+[0.001s][trace][os,container] Path to /memory.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/memory.max
+[0.001s][trace][os,container] Memory Limit is: -1
+[0.001s][trace][os,container] Memory Limit is: Unlimited
+[0.001s][debug][os,container] container memory limit unlimited: -1, using host value 32903991296
+[0.001s][trace][os,container] Path to /memory.max is /sys/fs/cgroup/user.slice/user-1000.slice/memory.max
+[0.001s][trace][os,container] Memory Limit is: -1
+[0.001s][trace][os,container] Memory Limit is: Unlimited
+[0.001s][debug][os,container] container memory limit unlimited: -1, using host value 32903991296
+[0.001s][trace][os,container] Path to /memory.max is /sys/fs/cgroup/user.slice/memory.max
+[0.001s][trace][os,container] Memory Limit is: -1
+[0.001s][trace][os,container] Memory Limit is: Unlimited
+[0.001s][debug][os,container] container memory limit unlimited: -1, using host value 32903991296
+[0.001s][trace][os,container] Path to /memory.max is /sys/fs/cgroup/memory.max
+[0.001s][debug][os,container] Open of file /sys/fs/cgroup/memory.max failed, No such file or directory
+[0.001s][trace][os,container] Memory Limit failed: -2
+[0.001s][trace][os,container] Memory Limit is: -2
+[0.001s][debug][os,container] container memory limit failed: -2, using host value 32903991296
+[0.001s][trace][os,container] Lowest limit was: 2147483648
+[0.001s][trace][os,container] No lower limit found for memory in hierarchy /sys/fs/cgroup, adjusting to original path /user.slice/user-1000.slice/user@1000.service/app.slice/jvmtest
+[0.001s][trace][os,container] Adjusting controller path for cpu: /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/jvmtest
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/jvmtest/cpu.max
+[0.001s][trace][os,container] CPU Quota is: -1
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/jvmtest/cpu.max
+[0.001s][trace][os,container] CPU Period is: 100000
+[0.001s][trace][os,container] OSContainer::active_processor_count: 12
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/cpu.max
+[0.001s][trace][os,container] CPU Quota is: -1
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/cpu.max
+[0.001s][trace][os,container] CPU Period is: 100000
+[0.001s][trace][os,container] OSContainer::active_processor_count: 12
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/cpu.max
+[0.001s][trace][os,container] CPU Quota is: -1
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/cpu.max
+[0.001s][trace][os,container] CPU Period is: 100000
+[0.001s][trace][os,container] OSContainer::active_processor_count: 12
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/user-1000.slice/cpu.max
+[0.001s][trace][os,container] CPU Quota is: -1
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/user-1000.slice/cpu.max
+[0.001s][trace][os,container] CPU Period is: 100000
+[0.001s][trace][os,container] OSContainer::active_processor_count: 12
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/cpu.max
+[0.001s][trace][os,container] CPU Quota is: -1
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/cpu.max
+[0.001s][trace][os,container] CPU Period is: 100000
+[0.001s][trace][os,container] OSContainer::active_processor_count: 12
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/cpu.max
+[0.001s][debug][os,container] Open of file /sys/fs/cgroup/cpu.max failed, No such file or directory
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/cpu.max
+[0.001s][debug][os,container] Open of file /sys/fs/cgroup/cpu.max failed, No such file or directory
+[0.001s][trace][os,container] CPU Period failed: -2
+[0.001s][trace][os,container] OSContainer::active_processor_count: 12
+[0.001s][trace][os,container] Lowest limit was: 12
+[0.001s][trace][os,container] No lower limit found for cpu in hierarchy /sys/fs/cgroup, adjusting to original path /user.slice/user-1000.slice/user@1000.service/app.slice/jvmtest
+[0.001s][trace][os,container] total physical memory: 32903991296
+[0.001s][trace][os,container] Path to /memory.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/jvmtest/memory.max
+[0.001s][trace][os,container] Memory Limit is: 2147483648
+[0.001s][trace][os,container] Memory Limit is: 2147483648
+[0.001s][debug][os,container] OSContainer::init: is_containerized() = true because either a cpu or a memory limit is present
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/jvmtest/cpu.max
+[0.001s][trace][os,container] CPU Quota is: -1
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/jvmtest/cpu.max
+[0.001s][trace][os,container] CPU Period is: 100000
+[0.001s][trace][os,container] OSContainer::active_processor_count: 12
+[0.001s][trace][os,container] CgroupSubsystem::active_processor_count (cached): 12
+[0.002s][trace][os,container] CgroupSubsystem::active_processor_count (cached): 12
+[0.018s][trace][os,container] CgroupSubsystem::active_processor_count (cached): 12
+maxMemory=1503657984 totalMemory=35651584 maxMemoryGiB=1.40 totalMemoryGiB=0.03

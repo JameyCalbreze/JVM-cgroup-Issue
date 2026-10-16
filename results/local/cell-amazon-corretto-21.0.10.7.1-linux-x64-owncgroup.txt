@@ -1,0 +1,23 @@
+[0.001s][trace][os,container] OSContainer::init: Initializing Container Support
+[0.001s][debug][os,container] Detected optional pids controller entry in /sys/fs/cgroup/cgroup.controllers
+[0.001s][debug][os,container] controller cpuset is not enabled
+[0.001s][debug][os,container] Duplicate (cg2, unified) controllers detected. Picking /sys/fs/cgroup, skipping /sys/fs/cgroup.
+[0.001s][debug][os,container] Duplicate (cg2, unified) controllers detected. Picking /sys/fs/cgroup, skipping /sys/fs/cgroup.
+[0.001s][debug][os,container] Duplicate (cg2, unified) controllers detected. Picking /sys/fs/cgroup, skipping /sys/fs/cgroup.
+[0.001s][debug][os,container] Duplicate (cg2, unified) controllers detected. Picking /sys/fs/cgroup, skipping /sys/fs/cgroup.
+[0.001s][debug][os,container] Duplicate (cg2, unified) controllers detected. Picking /sys/fs/cgroup, skipping /sys/fs/cgroup.
+[0.001s][debug][os,container] Detected cgroups v2 unified hierarchy
+[0.001s][debug][os,container] OSContainer::init: is_containerized() = true because all controllers are mounted read-only (container case)
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/cpu.max
+[0.001s][trace][os,container] CPU Quota is: -1
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/cpu.max
+[0.001s][trace][os,container] CPU Period is: 100000
+[0.001s][trace][os,container] OSContainer::active_processor_count: 12
+[0.001s][trace][os,container] CgroupSubsystem::active_processor_count (cached): 12
+[0.001s][trace][os,container] total physical memory: 32903991296
+[0.001s][trace][os,container] Path to /memory.max is /sys/fs/cgroup/memory.max
+[0.001s][trace][os,container] Memory Limit is: 2147483648
+[0.001s][trace][os,container] Memory Limit is: 2147483648
+[0.002s][trace][os,container] CgroupSubsystem::active_processor_count (cached): 12
+[0.018s][trace][os,container] CgroupSubsystem::active_processor_count (cached): 12
+maxMemory=1503657984 totalMemory=35651584 maxMemoryGiB=1.40 totalMemoryGiB=0.03

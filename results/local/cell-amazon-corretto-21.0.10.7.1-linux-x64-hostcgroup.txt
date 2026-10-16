@@ -1,0 +1,26 @@
+[0.000s][trace][os,container] OSContainer::init: Initializing Container Support
+[0.001s][debug][os,container] Detected optional cpuset controller entry in /sys/fs/cgroup/cgroup.controllers
+[0.001s][debug][os,container] Detected optional pids controller entry in /sys/fs/cgroup/cgroup.controllers
+[0.001s][debug][os,container] Duplicate (cg2, unified) controllers detected. Picking /sys/fs/cgroup, skipping /sys/fs/cgroup.
+[0.001s][debug][os,container] Duplicate (cg2, unified) controllers detected. Picking /sys/fs/cgroup, skipping /sys/fs/cgroup.
+[0.001s][debug][os,container] Duplicate (cg2, unified) controllers detected. Picking /sys/fs/cgroup, skipping /sys/fs/cgroup.
+[0.001s][debug][os,container] Duplicate (cg2, unified) controllers detected. Picking /sys/fs/cgroup, skipping /sys/fs/cgroup.
+[0.001s][debug][os,container] Duplicate (cg2, unified) controllers detected. Picking /sys/fs/cgroup, skipping /sys/fs/cgroup.
+[0.001s][debug][os,container] Detected cgroups v2 unified hierarchy
+[0.001s][debug][os,container] OSContainer::init: is_containerized() = true because all controllers are mounted read-only (container case)
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/cpu.max
+[0.001s][debug][os,container] Open of file /sys/fs/cgroup/cpu.max failed, No such file or directory
+[0.001s][trace][os,container] Path to /cpu.max is /sys/fs/cgroup/cpu.max
+[0.001s][debug][os,container] Open of file /sys/fs/cgroup/cpu.max failed, No such file or directory
+[0.001s][trace][os,container] CPU Period failed: -2
+[0.001s][trace][os,container] OSContainer::active_processor_count: 12
+[0.001s][trace][os,container] CgroupSubsystem::active_processor_count (cached): 12
+[0.001s][trace][os,container] total physical memory: 32903991296
+[0.001s][trace][os,container] Path to /memory.max is /sys/fs/cgroup/memory.max
+[0.001s][debug][os,container] Open of file /sys/fs/cgroup/memory.max failed, No such file or directory
+[0.001s][trace][os,container] Memory Limit failed: -2
+[0.001s][trace][os,container] Memory Limit is: -2
+[0.001s][debug][os,container] container memory limit failed: -2, using host value 32903991296
+[0.002s][trace][os,container] CgroupSubsystem::active_processor_count (cached): 12
+[0.019s][trace][os,container] CgroupSubsystem::active_processor_count (cached): 12
+maxMemory=23035117568 totalMemory=536870912 maxMemoryGiB=21.45 totalMemoryGiB=0.50

@@ -1,0 +1,5 @@
+allocated 0 GiB; heap total=494M max=1434M
+allocated 0 GiB; heap total=579M max=1434M
+allocated 1 GiB; heap total=1123M max=1434M
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at Alloc.main(Alloc.java:10)

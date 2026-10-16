@@ -1,0 +1,4 @@
+allocated 0 GiB; heap total=15712M max=21968M
+allocated 0 GiB; heap total=15712M max=21968M
+allocated 1 GiB; heap total=15712M max=21968M
+allocated 1 GiB; heap total=15712M max=21968M

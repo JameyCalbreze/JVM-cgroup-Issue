@@ -1,0 +1,9 @@
+# Build outputs produced by the runbook (README "Steps to reproduce")
+harness/libopenlog.so
+harness/java/*.class
+
+# Downloaded JDK tarballs live outside the repo (~/jdk); ignore any stray copies
+*.tar.gz
+
+# results/ is intentionally tracked: it holds the evidence snapshot cited by findings.md.
+# Re-running the harness overwrites it (see README "Layout").

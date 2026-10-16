@@ -1,0 +1,14 @@
+[0.001s][trace][os,container] OSContainer::init: Initializing Container Support
+[0.001s][debug][os,container] Detected optional pids controller entry in /proc/cgroups
+[0.001s][debug][os,container] controller cpu is not enabled
+
+[0.001s][debug][os,container] controller memory is not enabled
+
+[0.001s][debug][os,container] One or more required controllers disabled at kernel level.
+VM settings:
+    Max. Heap Size (Estimated): 21.45G
+    Using VM: OpenJDK 64-Bit Server VM
+
+openjdk version "21.0.5" 2024-10-15 LTS
+OpenJDK Runtime Environment Corretto-21.0.5.11.1 (build 21.0.5+11-LTS)
+OpenJDK 64-Bit Server VM Corretto-21.0.5.11.1 (build 21.0.5+11-LTS, mixed mode, sharing)
